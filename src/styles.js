@@ -17,7 +17,7 @@ background-color: ${(props) => {
         console.log(parseInt(h),parseFloat(s)*100,parseFloat(l.split(')')[0])*100)
         const [r,g,b] = (HSLToRGB(Math.round(parseFloat(h)),Math.round((parseFloat(s))*100),Math.round(parseFloat(l.split(')')[0])*100)))
         return `rgb(${r}, ${g}, ${b})`
-    }
+    } 
     
     return `black`}};
 `  
